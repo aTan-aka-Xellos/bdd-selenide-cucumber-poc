@@ -19,6 +19,7 @@ public class BBCTest {
 
     @BeforeClass
     public static void setupTimeout() {
+        // TODO: will be moved in property file to be able to configm instead of hardcode 
         browser = "chrome";
     }
 
